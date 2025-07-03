@@ -110,35 +110,17 @@ Call dj(1011, 1)
 Call bq
 Call wy("https://www.bitquant.io/")
 Delay 15000
-Call dj(1043,709)
+Call dj(843,644)
 Delay 5000
-Call dj(938,580)
+Call dj(813,715)
 Delay 5000
-Call dj(1809,566)
+Call dj(1019,541)
 Delay 5000
-Call dj(1053,748)
+Call dj(1019,742)
 Delay 5000
-Call dj(1838,567)
-Delay 5000
-
-//6 https://byield.gonative.cc/ slushµÇÂ¼
-Call dj(1011, 1)
-Call bq
-Call wy("https://byield.gonative.cc/")
+Call xhl
+Call xhl
 Delay 15000
-Call dj(1043,709)
-Delay 1500
-SayString 0.001
-Delay 1500
-Call dj(1092,989)
-Delay 2000
-Call dj(1695, 325)
-Delay 5000
-Call dj(1838, 567)
-Delay 5000
-Call mm
-KeyPress "Enter", 1
-
 For 15
 	Call dj(864, 701)
 	Delay 200
@@ -146,6 +128,31 @@ For 15
 Next
 Delay 5000
 Call gb
+
+
+//6 https://byield.gonative.cc/ slushµÇÂ¼
+Call dj(1011, 1)
+Call bq
+Call wy("https://byield.gonative.cc/")
+Delay 15000
+Call dj(1613,152)
+Delay 5000
+Call dj(975,598)
+Delay 5000
+Call dj(760,775)
+Delay 1500
+SayString 0.001
+Delay 1500
+Call dj(1092,989)
+Delay 5000
+Call dj(1811,593)
+Delay 5000
+Call dj(1712,322)
+Delay 5000
+Call mm
+KeyPress "Enter", 1
+
+
 
 Sub dj(x,y)
 	MoveTo x, y
@@ -179,7 +186,7 @@ End Sub
 Sub wy(url)
 SayString url
 	Delay 200
-	KeyPress "Enter", 1*
+	KeyPress "Enter", 1
 
 End Sub
 Sub gb
