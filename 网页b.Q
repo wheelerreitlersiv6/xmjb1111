@@ -23,9 +23,10 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-//左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz
-//新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh
+//左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz 
+//新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh 刷新页面=sx
 //找色=zs 找图=zt 
+//小狐狸钱包=xhl
 //密码=mm
 Call dj(1011, 1)
 Call wh
@@ -81,10 +82,19 @@ Call dj(1011, 1)
 Call bq
 Call wy("https://testnet.humanity.org/login")
 Delay 15000
-Call dj(1037,390)
+If zs(790,387,818,413,"3FFB6D") = False Then 
+	Call sx
+	Else 
+	TracePrint"nowhere"
+End If
+Call dj(790,380)
 Delay 5000
-Call dj(980,580)
+Call dj(1014,522)
 Delay 5000
+Call dj(864,633)
+Delay 5000
+Call xhl
+Call xhl
 Call dj(1042,649)
 Delay 5000
 Call dj(1859,667)
@@ -92,6 +102,7 @@ Delay 10000
 Call dj(562,813)
 Delay 5000
 Call gb
+
 
 //5 https://www.bitquant.io/ 小狐狸登录
 Call dj(1011, 1)
@@ -167,7 +178,7 @@ End Sub
 Sub wy(url)
 SayString url
 	Delay 200
-	KeyPress "Enter", 1
+	KeyPress "Enter", 1*
 
 End Sub
 Sub gb
@@ -185,6 +196,17 @@ KeyUp 16, 1
 KeyUp 17, 1
 Delay 3000
 End Sub
+Sub sx
+	KeyPress "F5", 1
+	Delay 15000
+End Sub
+Sub xhl
+    If zs(1749,552,1771,567,"FF5944") = true Then
+    Call dj(1749,552)
+    Delay 5000
+End If
+End Sub
+
 Sub mm
 SayString "lzll361616"
 End Sub

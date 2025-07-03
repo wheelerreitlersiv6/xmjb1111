@@ -23,9 +23,10 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-//左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz
-//新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh
+//左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz 
+//新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh 刷新页面=sx
 //找色=zs 找图=zt 
+//小狐狸钱包=xhl
 //密码=mm
 Call dj(1011, 1)
 Call wh
@@ -82,6 +83,17 @@ KeyUp 16, 1
 KeyUp 17, 1
 Delay 3000
 End Sub
+Sub sx
+	KeyPress "F5", 1
+	Delay 15000
+End Sub
+Sub xhl
+    If zs(1749,552,1771,567,"FF5944") = true Then
+    Call dj(1749,552)
+    Delay 5000
+End If
+End Sub
+
 Sub mm
 SayString "lzll361616"
 End Sub
