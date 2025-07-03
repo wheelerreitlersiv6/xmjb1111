@@ -29,8 +29,8 @@ SetupOCXFile=
 //ÃÜÂë=mm
 Call dj(1011, 1)
 Call wh
-//1 https://www.unemeta.com/en/rewards
-Call dj(1011, 1)
+//1 https://www.unemeta.com/en/rewards Ð¡ºüÀêµÇÂ¼
+//Call dj(1011, 1)
 Call bq
 Call wy("https://www.unemeta.com/en/rewards")
 Delay 30000
@@ -46,16 +46,24 @@ Call dj(1498,445)
 Delay 5000
 Call gb
 
-//2 https://app.tea-fi.com/swap
+//2 https://app.tea-fi.com/swap Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Call wy("https://app.tea-fi.com/swap")
 Delay 15000
+If zs(397,620,408,627,"150D0F") = true Then
+    Call dj(1461, 264)
+    Delay 1500
+End If
+If zs(874,816,886,825,"E0305E") = true Then
+    Call dj(874,816)
+    Delay 1500
+End If
 Call dj(1202,549)
 Delay 5000
 Call gb
 
-//3 https://profile.bluwhale.com/login
+//3 https://profile.bluwhale.com/login Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Call wy("https://profile.bluwhale.com/login")
@@ -68,7 +76,7 @@ Call dj(901,590)
 Delay 10000
 Call gb
 
-//4 https://testnet.humanity.org/login
+//4 https://testnet.humanity.org/login Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Call wy("https://testnet.humanity.org/login")
@@ -85,7 +93,7 @@ Call dj(562,813)
 Delay 5000
 Call gb
 
-//5 https://www.bitquant.io/
+//5 https://www.bitquant.io/ Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Call wy("https://www.bitquant.io/")
@@ -101,7 +109,7 @@ Delay 5000
 Call dj(1838,567)
 Delay 5000
 
-//6 https://byield.gonative.cc/
+//6 https://byield.gonative.cc/ slushµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Call wy("https://byield.gonative.cc/")
