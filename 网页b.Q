@@ -53,7 +53,7 @@ Call dj(1011, 1)
 Call bq
 Call wy("https://app.tea-fi.com/swap")
 Delay 35000
-If zs(397,620,408,627,"150D0F") = true Then
+If zs(397,620,408,627,"FCF3F7") = true Then
     Call dj(1461, 264)
     Delay 1500
 End If
@@ -70,6 +70,7 @@ Delay 5000
 Call dj(838, 944)
 Delay 5000
 Call gb
+
 
 //3 https://profile.bluwhale.com/login Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
