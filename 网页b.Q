@@ -46,6 +46,7 @@ Delay 5000
 Call dj(1498,445)
 Delay 5000
 Call gb
+ 
 
 //2 https://app.tea-fi.com/swap Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
