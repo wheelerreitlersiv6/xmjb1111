@@ -121,9 +121,14 @@ Call dj(843,644)
 Delay 5000
 Call dj(813,715)
 Delay 5000
-Call dj(1019,541)
+MouseWheel - 1 
+Call dj(1251,951)
 Delay 5000
-Call dj(1019,742)
+Call dj(777,705)
+Delay 5000
+Call dj(957,541)
+Delay 5000
+Call dj(1010,748)
 Delay 5000
 Call xhl
 Call xhl
@@ -135,6 +140,7 @@ For 15
 Next
 Delay 5000
 Call gb
+
 
 
 //6 https://byield.gonative.cc/ slushµÇÂ¼
