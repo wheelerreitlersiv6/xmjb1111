@@ -52,16 +52,22 @@ Call gb
 Call dj(1011, 1)
 Call bq
 Call wy("https://app.tea-fi.com/swap")
-Delay 15000
+Delay 35000
 If zs(397,620,408,627,"150D0F") = true Then
     Call dj(1461, 264)
     Delay 1500
 End If
-If zs(874,816,886,825,"E0305E") = true Then
+If zs(874,816,886,825,"BC556C") = true Then
     Call dj(874,816)
     Delay 1500
 End If
 Call dj(1202,549)
+Delay 5000
+If zs(1036,198,1042,208,"BC556C") = true Then
+    Call dj(1036,198)
+End If
+Delay 5000
+Call dj(838, 944)
 Delay 5000
 Call gb
 
