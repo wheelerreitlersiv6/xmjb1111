@@ -168,9 +168,7 @@ For 15
 Next
 Delay 5000
 Call gb
-
-
-
+Delay 5000
 //6 https://byield.gonative.cc/ slushµÇÂ¼
 Call dj(1011, 1)
 Call bq

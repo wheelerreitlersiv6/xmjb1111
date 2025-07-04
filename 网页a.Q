@@ -48,30 +48,46 @@ Call wy("https://sosovalue.com/zh")
 Delay 30000
 Call dj(1770,144)
 Delay 10000
-Call dj(927, 664)
+FindColor 648,685,700,792,"204FFF",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
 Delay 5000
 Call gb
-Call dj(1225,656)
+FindColor 1088,680,1163,786,"204FFF",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
 Delay 5000
 Call gb
-Call dj(1556,660)
+FindColor 1504,674,1572,805,"204FFF",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
 Delay 5000
 Call gb
 Delay 60000
-Call dj(728,655)
-Delay 5000
-Call dj(938,793)
-Delay 5000
-Call dj(1170,655)
-Delay 5000
-Call dj(938,793)
-Delay 5000
-Call dj(1550,659)
-Delay 5000
-Call dj(938,793)
-Delay 5000
-
-
+FindColor 685,703,760,784,"ADADAD",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
+Delay 7000
+FindColor 1095,704,1191,788,"ADADAD",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
+Delay 7000
+FindColor 1546,702,1625,795,"ADADAD",x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+      LeftClick 1
+End If
+Delay 7000
 
 //3 https://depinhub.io/earn
 Call dj(1011, 1)
