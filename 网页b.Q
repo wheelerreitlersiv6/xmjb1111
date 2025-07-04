@@ -31,7 +31,7 @@ SetupOCXFile=
 Call dj(1011, 1)
 Call wh
 //1 https://www.unemeta.com/en/rewards Ð¡ºüÀêµÇÂ¼
-//Call dj(1011, 1)
+Call dj(1011, 1)
 Call bq
 Call wy("https://www.unemeta.com/en/rewards")
 Delay 30000
@@ -40,6 +40,8 @@ Delay 2000
 Call dj(1109,547)
 Delay 5000
 Call dj(1802,561)
+Delay 5000
+Call xhl
 Delay 5000
 Call tz(1918,245,1917,447)
 Delay 5000
@@ -67,7 +69,7 @@ If zs(1036,198,1042,208,"BC556C") = true Then
     Call dj(1036,198)
 End If
 Delay 5000
-Call dj(838, 944)
+Call dj(936,970)
 Delay 5000
 Call gb
 
@@ -187,7 +189,13 @@ Delay 5000
 Call mm
 KeyPress "Enter", 1
 
-
+//kaisar
+Call dj(1516,73)
+Delay 35000
+Call dj(1256,448)
+Delay 35000
+Call dj(1256,448)
+Delay 35000
 
 Sub dj(x,y)
 	MoveTo x, y
