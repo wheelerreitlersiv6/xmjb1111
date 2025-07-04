@@ -93,7 +93,7 @@ Delay 15000
 If zs(790,387,818,413,"3FFB6D") = False Then 
 	Call sx
 	Else 
-	TracePrint"nowhere"
+	TracePrint"here"
 End If
 Call dj(790,380)
 Delay 5000
@@ -103,6 +103,29 @@ Call dj(864,633)
 Delay 5000
 Call xhl
 Call xhl
+Delay 10000
+Call dj(952,748)
+Delay 5000
+If zs(806, 590, 834, 610, "EB7E62") = True Then 
+	Call dj(806, 590)
+	Delay 10000
+	Else 
+	TracePrint"nowhere"
+End If
+Call dj(567,396)
+Delay 5000
+Call dj(659,421)
+Delay 5000
+Call dj(636,884)
+Delay 5000
+Call dj(927,848)
+Delay 5000
+Call dj(1377,899)
+Delay 5000
+Call dj(965,808)
+Delay 5000
+Call dj(965,808)//教程结束
+Delay 5000
 Call dj(1042,649)
 Delay 5000
 Call dj(1859,667)
@@ -110,7 +133,6 @@ Delay 10000
 Call dj(562,813)
 Delay 5000
 Call gb
-
 
 //5 https://www.bitquant.io/ 小狐狸登录
 Call dj(1011, 1)
