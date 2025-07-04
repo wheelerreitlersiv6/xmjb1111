@@ -48,21 +48,21 @@ Call wy("https://sosovalue.com/zh")
 Delay 30000
 Call dj(1770,144)
 Delay 10000
-FindColor 648,685,700,792,"204FFF",x,y   
+FindColor 602,624,648,697,"204FFF",x,y   
 If x>0 and y>0 Then  
     MoveTo x, y
       LeftClick 1
 End If
 Delay 5000
 Call gb
-FindColor 1088,680,1163,786,"204FFF",x,y   
+FindColor 1045,595,1108,702,"204FFF",x,y   
 If x>0 and y>0 Then  
     MoveTo x, y
       LeftClick 1
 End If
 Delay 5000
 Call gb
-FindColor 1504,674,1572,805,"204FFF",x,y   
+FindColor 1491,591,1556,702,"204FFF",x,y   
 If x>0 and y>0 Then  
     MoveTo x, y
       LeftClick 1
