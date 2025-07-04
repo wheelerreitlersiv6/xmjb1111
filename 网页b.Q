@@ -81,6 +81,10 @@ Call wy("https://profile.bluwhale.com/login")
 Delay 20000
 Call dj(1008,482)
 Delay 5000
+If zs(920,370,970,435,"FFFFFF") = true Then
+    Call dj(736,440)
+    Delay 5000
+End If
 Call dj(1803,566)
 Delay 10000
 Call dj(901,590)
