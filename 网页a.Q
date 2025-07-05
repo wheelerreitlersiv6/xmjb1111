@@ -24,8 +24,9 @@ SetupOCXFile=
 
 [Script]
 //×ó¼üµã»÷=dj Ë«»÷=sj ÓÒ¼üµã»÷=yj ÍÏ×§Êó±ê=tz
-//ÐÂ½¨±êÇ©Ò³=bq ±êÇ©Ò³´ò¿ªÍøÒ³=wy ¹Ø±ÕÍøÒ³=gb 
-//ÕÒÉ«=zs ÕÒÍ¼=zt 
+//ÐÂ½¨±êÇ©Ò³=bq ±êÇ©Ò³´ò¿ªÍøÒ³=wy ¹Ø±ÕÍøÒ³=gb(Á½ÃëÑÓ³Ù£©
+//ÕÒÉ«=zs ÕÒÍ¼=zt ÕÒÉ«³õÊ¼»¯=zscsh ÕÒÉ«ºóµã»÷=zsdj£¨ÎåÃëÑÓ³Ù£©
+//ÕÒÉ«ºó¹Ø±Õ=zsgb(ÎåÃëÑÓ³Ù£©
 //ÃÜÂë=mm
 
 //1 despeed
@@ -48,46 +49,22 @@ Call wy("https://sosovalue.com/zh")
 Delay 30000
 Call dj(1770,144)
 Delay 10000
-FindColor 602,624,648,697,"204FFF",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 5000
-Call gb
-FindColor 1045,595,1108,702,"204FFF",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 5000
-Call gb
-FindColor 1491,591,1556,702,"204FFF",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 5000
-Call gb
+Call zscsh
+Call zsdj(602,624,648,697,"204FFF")
+Call zsgb
+Call zscsh
+Call zsdj(1045,595,1108,702,"204FFF")
+Call zsgb
+Call zscsh
+Call zsdj(1491,591,1556,702,"204FFF")
+Call zsgb
 Delay 60000
-FindColor 685,703,760,784,"ADADAD",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 7000
-FindColor 1095,704,1191,788,"ADADAD",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 7000
-FindColor 1546,702,1625,795,"ADADAD",x,y   
-If x>0 and y>0 Then  
-    MoveTo x, y
-      LeftClick 1
-End If
-Delay 7000
+Call zsdj(585,596,758,729,"ADADAD")
+Delay 10000
+Call zsdj(1022,592,1213,711,"ADADAD")
+Delay 10000
+Call zsdj(1673,710,1649,1005,"ADADAD")
+Delay 10000
 
 //3 https://depinhub.io/earn
 Call dj(1011, 1)
@@ -197,6 +174,30 @@ Sub gb
 KeyPress 87, 1
 KeyUp 17, 1
 Delay 2000
+End Sub
+Sub zsgb
+	If zdys = True Then 
+	Call gb
+	Delay 5000
+	Else 
+	Delay 3000
+End If
+End Sub
+Sub zsdj(x1,y1,x2,y2,ÑÕÉ«Öµ)
+	FindColor x1,y1,x2,y2,ÑÕÉ«Öµ,x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+    LeftClick 1
+    Delay 5000
+    zdys = True
+    Else 
+    zdys = False
+End If   
+End Sub
+
+Sub zscsh
+	Dim zdys
+	zdys = False
 End Sub
 Sub mm
 SayString "lzll361616"
