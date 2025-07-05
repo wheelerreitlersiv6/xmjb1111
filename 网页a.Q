@@ -63,7 +63,7 @@ Call zsdj(585,596,758,729,"ADADAD")
 Delay 10000
 Call zsdj(1022,592,1213,711,"ADADAD")
 Delay 10000
-Call zsdj(1673,710,1649,1005,"ADADAD")
+Call zsdj(1475,594,1681,707,"ADADAD")
 Delay 10000
 
 //3 https://depinhub.io/earn
@@ -86,12 +86,12 @@ Call dj(1055,882)
 Delay 5000
 Call dj(973,590)
 Delay 5000
-MouseWheel -1 
-Call dj(960,901)
-Delay 5000
-Call dj(1020,537)
-Delay 5000
-Call gb
+//MouseWheel -1 
+//Call dj(960,901)
+//Delay 5000
+//Call dj(1020,537)
+//Delay 5000
+//Call gb
 Call gb
 
 //5 https://wallet.litas.io/login
