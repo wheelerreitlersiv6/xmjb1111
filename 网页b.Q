@@ -86,7 +86,7 @@ If zs(920,370,970,435,"FFFFFF") = true Then
     Delay 5000
 End If
 Call dj(1803,566)
-Delay 10000
+Delay 20000
 Call dj(901,590)
 Delay 10000
 Call gb
@@ -168,7 +168,7 @@ For 15
 Next
 Delay 5000
 Call gb
-Delay 5000
+Delay 15000
 //6 https://byield.gonative.cc/ slushµÇÂ¼
 Call dj(1011, 1)
 Call bq
@@ -192,12 +192,12 @@ Call mm
 KeyPress "Enter", 1
 
 //kaisar
-Call dj(1516,73)
+Call dj(1672,65)
 Delay 35000
-Call dj(1256,448)
-Delay 35000
-Call dj(1256,448)
-Delay 35000
+Call dj(1565,448)
+Delay 15000
+Call dj(1565,448)
+Delay 15000
 
 Sub dj(x,y)
 	MoveTo x, y
