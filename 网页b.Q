@@ -26,7 +26,7 @@ SetupOCXFile=
 //左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz 
 //新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh 刷新页面=sx
 //找色=zs 找图=zt 
-//小狐狸钱包=xhl
+//小狐狸钱包=xhl sui钱包=sui
 //密码=mm
 Call dj(1011, 1)
 Call wh
@@ -179,7 +179,8 @@ Delay 5000
 Call dj(975,598)
 Delay 5000
 Call dj(760,775)
-Delay 1500
+Delay 5000
+Call sui
 SayString 0.001
 Delay 1500
 Call dj(1092,989)
@@ -259,7 +260,12 @@ Sub xhl
     Delay 5000
 End If
 End Sub
-
+Sub sui
+    If zs(1782,552,1896,652,"99E247") = true Then
+    Call dj(1749,552)
+    Delay 5000
+End If
+End Sub
 Sub mm
 SayString "lzll361616"
 End Sub
