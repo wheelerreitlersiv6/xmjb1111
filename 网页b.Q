@@ -197,7 +197,9 @@ Delay 5000
 Call dj(1712,322)
 Delay 5000
 Call mm
+Delay 5000
 KeyPress "Enter", 1
+Delay 5000
 
 //kaisar
 Call dj(1672,65)
