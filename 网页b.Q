@@ -144,18 +144,24 @@ Call gb
 Call dj(1011, 1)
 Call bq
 Call wy("https://www.bitquant.io/")
-Delay 15000
+Delay 30000
 Call dj(843,644)
 Delay 5000
 Call dj(813,715)
 Delay 5000
 MouseWheel - 1 
-Call dj(1251,951)
+Call dj(1251, 951)
 Delay 5000
+Call xhl
+Call xhl
 Call dj(777,705)
 Delay 5000
+Call xhl
+Call xhl
 Call dj(957,541)
 Delay 5000
+Call xhl
+Call xhl
 Call dj(1010,748)
 Delay 5000
 Call xhl
@@ -178,13 +184,14 @@ Call dj(1613,152)
 Delay 5000
 Call dj(975,598)
 Delay 5000
+Call sui
 Call dj(760,775)
 Delay 5000
 Call sui
 SayString 0.001
 Delay 1500
 Call dj(1092,989)
-Delay 5000
+Delay 15000
 Call dj(1811,593)
 Delay 5000
 Call dj(1712,322)
@@ -262,7 +269,7 @@ End If
 End Sub
 Sub sui
     If zs(1782,552,1896,652,"99E247") = true Then
-    Call dj(1749,552)
+    Call dj(1787,598)
     Delay 5000
 End If
 End Sub

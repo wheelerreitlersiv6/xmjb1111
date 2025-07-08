@@ -33,7 +33,6 @@ Call wh
 
 
 
-
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200
@@ -94,7 +93,12 @@ Sub xhl
     Delay 5000
 End If
 End Sub
-
+Sub sui
+    If zs(1782,552,1896,652,"99E247") = true Then
+    Call dj(1787,598)
+    Delay 5000
+End If
+End Sub
 Sub mm
 SayString "lzll361616"
 End Sub
