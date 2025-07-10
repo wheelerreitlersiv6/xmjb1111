@@ -144,7 +144,7 @@ Call gb
 Call dj(1011, 1)
 Call bq
 Call wy("https://www.bitquant.io/")
-Delay 30000
+Delay 35000
 Call dj(843,644)
 Delay 5000
 Call dj(813,715)
@@ -191,7 +191,7 @@ Call sui
 SayString 0.001
 Delay 1500
 Call dj(1092,989)
-Delay 15000
+Delay 45000
 Call dj(1811,593)
 Delay 5000
 Call dj(1712,322)
