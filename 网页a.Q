@@ -23,10 +23,11 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-//×ó¼üµã»÷=dj Ë«»÷=sj ÓÒ¼üµã»÷=yj ÍÏ×§Êó±ê=tz
-//ÐÂ½¨±êÇ©Ò³=bq ±êÇ©Ò³´ò¿ªÍøÒ³=wy ¹Ø±ÕÍøÒ³=gb(Á½ÃëÑÓ³Ù£©
+//×ó¼üµã»÷=dj Ë«»÷=sj ÓÒ¼üµã»÷=yj ÍÏ×§Êó±ê=tz 
+//ÐÂ½¨±êÇ©Ò³=bq ±êÇ©Ò³´ò¿ªÍøÒ³=wy ¹Ø±ÕÍøÒ³=gb(Á½ÃëÑÓ³Ù£© ´ò¿ªÎÞºÛ=wh Ë¢ÐÂÒ³Ãæ=sx
 //ÕÒÉ«=zs ÕÒÍ¼=zt ÕÒÉ«³õÊ¼»¯=zscsh ÕÒÉ«ºóµã»÷=zsdj£¨ÎåÃëÑÓ³Ù£©
 //ÕÒÉ«ºó¹Ø±Õ=zsgb(ÎåÃëÑÓ³Ù£©
+//Ð¡ºüÀêÇ®°ü=xhl suiÇ®°ü=sui
 //ÃÜÂë=mm
 
 //1 despeed
@@ -160,7 +161,7 @@ Sub bq
 	Delay 200
 KeyPress 84, 1
 KeyUp 17, 1
-Delay 2000
+
 End Sub
 Sub wy(url)
 SayString url
@@ -183,6 +184,30 @@ Sub zsgb
 	Delay 3000
 End If
 End Sub
+Sub wh
+	KeyDown 17, 1
+KeyDown 16, 1
+KeyPress 78, 1
+KeyUp 16, 1
+KeyUp 17, 1
+Delay 3000
+End Sub
+Sub sx
+	KeyPress "F5", 1
+	Delay 15000
+End Sub
+Sub xhl
+    If zs(1749,552,1771,567,"FF5944") = true Then
+    Call dj(1749,552)
+    Delay 5000
+End If
+End Sub
+Sub sui
+    If zs(1782,552,1896,652,"99E247") = true Then
+    Call dj(1787,598)
+    Delay 5000
+End If
+End Sub
 Sub zsdj(x1,y1,x2,y2,ÑÕÉ«Öµ)
 	FindColor x1,y1,x2,y2,ÑÕÉ«Öµ,x,y   
 If x>0 and y>0 Then  
@@ -194,7 +219,6 @@ If x>0 and y>0 Then
     zdys = False
 End If   
 End Sub
-
 Sub zscsh
 	Dim zdys
 	zdys = False

@@ -24,8 +24,9 @@ SetupOCXFile=
 
 [Script]
 //左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz 
-//新建标签页=bq 标签页打开网页=wy 关闭网页=gb 打开无痕=wh 刷新页面=sx
-//找色=zs 找图=zt 
+//新建标签页=bq 标签页打开网页=wy 关闭网页=gb(两秒延迟） 打开无痕=wh 刷新页面=sx
+//找色=zs 找图=zt 找色初始化=zscsh 找色后点击=zsdj（五秒延迟）
+//找色后关闭=zsgb(五秒延迟）
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
 Call dj(1011, 1)
@@ -251,6 +252,14 @@ KeyPress 87, 1
 KeyUp 17, 1
 Delay 2000
 End Sub
+Sub zsgb
+	If zdys = True Then 
+	Call gb
+	Delay 5000
+	Else 
+	Delay 3000
+End If
+End Sub
 Sub wh
 	KeyDown 17, 1
 KeyDown 16, 1
@@ -274,6 +283,21 @@ Sub sui
     Call dj(1787,598)
     Delay 5000
 End If
+End Sub
+Sub zsdj(x1,y1,x2,y2,颜色值)
+	FindColor x1,y1,x2,y2,颜色值,x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+    LeftClick 1
+    Delay 5000
+    zdys = True
+    Else 
+    zdys = False
+End If   
+End Sub
+Sub zscsh
+	Dim zdys
+	zdys = False
 End Sub
 Sub mm
 SayString "lzll361616"
