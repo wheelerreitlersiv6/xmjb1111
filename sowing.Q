@@ -8,9 +8,9 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=3a3b96f4-e602-4d94-9bca-cef3378568b1
-Description=子程序测试
-Enable=0
+MacroID=a18a2b30-c62c-489b-83c1-c382d61978bb
+Description=sowing
+Enable=1
 AutoRun=0
 [Repeat]
 Type=0
@@ -30,7 +30,25 @@ SetupOCXFile=
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
 
-
+Call dj(1011, 1)
+Call wh
+Call dj(1011, 1)
+Call bq
+Call wy("https://sowing.taker.xyz/")
+Delay 10000
+Call dj(1795, 148)
+Delay 5000
+Call dj(1637, 364)
+Delay 3000
+Call xhl
+Delay 1000
+Call xhl
+Call dj(1151, 560)
+Delay 5000
+Call xhl
+Call xhl
+Delay 15000
+Call dj(834, 664)
 
 
 Sub dj(x,y)
