@@ -39,16 +39,36 @@ Delay 10000
 Call dj(1795, 148)
 Delay 5000
 Call dj(1637, 364)
-Delay 3000
+Delay 5000
 Call xhl
-Delay 1000
+Delay 5000
 Call xhl
+Delay 5000
+For wai = 1 To 6
+TracePrint "===== 开始外层循环 " & wai & " ====="
+For i = 1 To 2
+ TracePrint "--- 内层循环 " & i & " ---"
 Call dj(1151, 560)
 Delay 5000
 Call xhl
+Delay 5000
 Call xhl
-Delay 15000
+Delay 35000
 Call dj(834, 664)
+Delay 15000
+Call sx
+Delay 15000
+Next
+TracePrint "完成内层循环，等待3小时..."
+Delay 10899999
+Delay 70000
+MoveTo 936, 11
+Delay 4316
+LeftClick 1
+Delay 100
+Next
+
+
 
 
 Sub dj(x,y)
