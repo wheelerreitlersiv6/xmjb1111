@@ -34,6 +34,7 @@ Call wh
 //1 https://www.unemeta.com/en/rewards Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://www.unemeta.com/en/rewards")
 Delay 30000
 Call dj(1816, 178)
@@ -54,6 +55,7 @@ Call gb
 //2 https://app.tea-fi.com/swap Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://app.tea-fi.com/swap")
 Delay 35000
 If zs(397,620,408,627,"FCF3F7") = true Then
@@ -78,6 +80,7 @@ Call gb
 //3 https://profile.bluwhale.com/login Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://profile.bluwhale.com/login")
 Delay 20000
 Call dj(1008,482)
@@ -144,6 +147,7 @@ Call gb
 //5 https://www.bitquant.io/ Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://www.bitquant.io/")
 Delay 35000
 Call dj(843,644)
@@ -179,6 +183,7 @@ Delay 15000
 //6 https://byield.gonative.cc/ slushµÇÂ¼
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://byield.gonative.cc/")
 Delay 15000
 Call dj(1613,152)

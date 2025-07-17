@@ -95,8 +95,16 @@ Call dj(1011, 1)
 Call bq
 Call wy("https://unich.com/en/airdrop")
 Delay 15000
-Call dj(1010, 641)
+If zs(516,391,570,422,"FFFFFF")=True Then 
+	Call dj(534, 412)
+	Delay 15000
+	Call dj(1010, 641)
 Delay 3000
+	Else 
+	Call dj(1010, 641)
+Delay 3000
+	Call
+End If
 MouseWheel - 12 
 Delay 5000
 Call dj(1010, 641)

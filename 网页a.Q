@@ -33,6 +33,7 @@ SetupOCXFile=
 //1 despeed
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://app.despeed.net/dashboard")
 Delay 15000
 Call dj(260, 749)
@@ -46,6 +47,7 @@ End If
 //2 https://sosovalue.com/zh
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://sosovalue.com/zh")
 Delay 30000
 Call dj(1770,144)
@@ -70,6 +72,7 @@ Delay 10000
 //3 https://depinhub.io/earn
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://depinhub.io/earn")
 Delay 15000
 Call dj(1202,549)
@@ -79,6 +82,7 @@ Call gb
 //4 https://www.sayecho.xyz/
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://www.sayecho.xyz/")
 Delay 15000
 Call dj(829,590)
@@ -98,6 +102,7 @@ Call gb
 //5 https://wallet.litas.io/login
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://wallet.litas.io/login")
 Delay 10000
 If zs(31,137,98,191," FFFFFF") = True Then
@@ -119,6 +124,7 @@ Call gb
 //6 https://x.ink/airdrop
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://x.ink/airdrop")
 Delay 15000
 Call dj(800,771)
@@ -128,6 +134,7 @@ Call gb
 //7 https://zero.kaisar.io/missions
 Call dj(1011, 1)
 Call bq
+Delay 1000
 Call wy("https://zero.kaisar.io/missions")
 Delay 20000
 Call dj(1843,400)
