@@ -29,6 +29,7 @@ SetupOCXFile=
 //找色后关闭=zsgb(五秒延迟）
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
+Call dj(1011, 1)
 For i = 1 To 200
 Call dj(1122,491)
 Delay 5000
