@@ -4,12 +4,12 @@ BeginHotkey=121
 BeginHotkeyMod=0
 PauseHotkey=0
 PauseHotkeyMod=0
-StopHotkey=45
-StopHotkeyMod=8
+StopHotkey=123
+StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=a6eefa94-504b-4fa2-ad5d-506b7a8fb7f0
-Description=网页任务3-需要unich保持登录状态
+MacroID=9d3667d4-e385-4157-81ae-e0a8506cb99e
+Description=转账
 Enable=1
 AutoRun=0
 [Repeat]
@@ -29,111 +29,38 @@ SetupOCXFile=
 //找色后关闭=zsgb(五秒延迟）
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
-
-//1 https://app.yala.org/berries
-//Call dj(1011, 1)
-//Call bq
-//Call wy("https://app.yala.org/berries")
-//Delay 30000
-//If zs(1412,346,1570,451,"FF9403")=False Then 
-//	Call zscsh
-//Call zsdj(1704, 127, 1837, 259, "52180E")
-//Delay 5000
-//If zs(875, 429, 894, 446, "E57063") = False Then 
-//Call dj(885, 441)
-//Delay 5000
-//Call dj(946, 511)
-//Delay 5000
-//Else 
-//Call dj(946, 511)
-//Delay 5000
-//End If
-//Call xhl
-//Delay 10000
-//Call xhl
-//Delay 5000
-//Call bq
-//Call wy("https://app.yala.org/berries")
-//Delay 15000
-//End If
-//Call zscsh
-//If zs(1387,388,1577,475,"89C721")=True Then 
-//	Call zsdj(1387, 388, 1577, 475, "89C721")
-//	Delay 5000
-//	Call gb
-//	Else 
-//	Delay 60000
-//	Call sx
-//	Delay 15000
-//	Call zsdj(1387, 388, 1577, 475, "89C721")
-//	Delay 5000
-//	Call gb
-//End If
-
-//2 https://earn.taker.xyz/
-Call dj(1011, 1)
-Call bq
-Call wy("https://earn.taker.xyz/")
-Delay 20000
-Call dj(1785,142)
+For i = 1 To 200
+Call dj(1122,491)
 Delay 5000
-Call zscsh
-Call zsdj(1459,143,1895,746,"5D8DFF")
+SayString 0.1
+Delay 20000
+Call dj(893,780)
+Delay 5000
+Call dj(851,782)
 Delay 5000
 Call xhl
-Delay 10000
+Delay 5000
 Call xhl
 Delay 5000
-Call dj(844,999)
-Delay 15000
+Call dj(1775, 585)
+Delay 5000
+Call dj(959,542)
+Delay 5000
+Call dj(1112,458)
+Delay 35000
+Call dj(893,780)
+Delay 5000
+Call dj(851,782)
+Delay 5000
 Call xhl
 Delay 5000
-Call gb
-
-//3 https://unich.com/en/airdrop
-Call dj(1011, 1)
-Call bq
-Call wy("https://unich.com/en/airdrop")
-Delay 15000
-If zs(516,391,570,422,"FFFFFF")=True Then 
-	Call dj(534, 412)
-	Delay 15000
-	Call dj(1010, 641)
-Delay 3000
-	Else 
-	Call dj(1010, 641)
-Delay 3000
-End If
-MouseWheel - 12 
+Call xhl
 Delay 5000
-Call dj(1010, 641)
+Call dj(1775, 585)
 Delay 5000
-
-
-//8 https://www.key.top/
-Call dj(1011, 1)
-Call bq
-Delay 1000
-KeyPress "F12", 1
+Call dj(959,542)
 Delay 5000
-Call dj(489, 64)
-Delay 1000
-Call wy("https://www.key.top/")
-Delay 20000
-Call dj(822,391)
-Delay 5000
-Call dj(597, 497)
-Delay 5000
-
-//9 https://nebulai.network/opencompute
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://nebulai.network/opencompute")
-Delay 20000
-Call dj(953, 946)
-
-
+Next
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200
