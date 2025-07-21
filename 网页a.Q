@@ -141,6 +141,19 @@ Call dj(1843,400)
 Delay 5000
 Call gb
 
+KeyDown "Alt", 1
+Delay 61
+KeyDown "Tab", 1
+Delay 42
+KeyUp "Alt", 1
+Delay 52
+KeyUp "Tab", 1
+Delay 461
+Call dj(857,617)
+Delay 3000
+Call dj(609,390)
+Delay 5000
+
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200

@@ -71,24 +71,24 @@ SetupOCXFile=
 //End If
 
 //2 https://earn.taker.xyz/
-Call dj(1011, 1)
-Call bq
-Call wy("https://earn.taker.xyz/")
-Delay 20000
-Call dj(1785,142)
-Delay 5000
-Call zscsh
-Call zsdj(1459,143,1895,746,"5D8DFF")
-Delay 5000
-Call xhl
-Delay 10000
-Call xhl
-Delay 5000
-Call dj(844,999)
-Delay 15000
-Call xhl
-Delay 5000
-Call gb
+//Call dj(1011, 1)
+//Call bq
+//Call wy("https://earn.taker.xyz/")
+//Delay 20000
+//Call dj(1785,142)
+//Delay 5000
+//Call zscsh
+//Call zsdj(1459,143,1895,746,"5D8DFF")
+//Delay 5000
+//Call xhl
+//Delay 10000
+//Call xhl
+//Delay 5000
+//Call dj(844,999)
+//Delay 15000
+//Call xhl
+//Delay 5000
+//Call gb
 
 //3 https://unich.com/en/airdrop
 Call dj(1011, 1)

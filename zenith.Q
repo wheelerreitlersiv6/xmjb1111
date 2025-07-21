@@ -38,7 +38,7 @@ Delay 20000
 Call dj(893,780)
 Delay 5000
 Call dj(851,782)
-Delay 5000
+Delay 15000
 Call xhl
 Delay 5000
 Call xhl
@@ -46,13 +46,13 @@ Delay 5000
 Call dj(1775, 585)
 Delay 5000
 Call dj(959,542)
-Delay 5000
+Delay 15000
 Call dj(1112,458)
 Delay 35000
 Call dj(893,780)
 Delay 5000
 Call dj(851,782)
-Delay 5000
+Delay 15000
 Call xhl
 Delay 5000
 Call xhl
