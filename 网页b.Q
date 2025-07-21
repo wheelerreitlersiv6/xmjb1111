@@ -223,9 +223,9 @@ KeyUp "Alt", 1
 Delay 52
 KeyUp "Tab", 1
 Delay 461
-Call dj(849,633)
+Call dj(486,784)
 Delay 3000
-Call dj(609,390)
+Call dj(227,528)
 Delay 5000
 
 Sub dj(x,y)
