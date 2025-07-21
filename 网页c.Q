@@ -114,7 +114,26 @@ Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-KeyPress "F12", 1
+'==========以下是按键精灵录制的内容==========
+
+Delay 2969
+KeyDown "Ctrl", 1
+Delay 3
+KeyDown "Shift", 1
+Delay 385
+KeyDown "I", 1
+Delay 1
+Delay 80
+KeyUp "I", 1
+Delay 1
+Delay 212
+KeyUp "Shift", 1
+Delay 2
+Delay 11
+KeyUp "Ctrl", 1
+Delay 3
+'==========以上是按键精灵录制的内容==========
+
 Delay 5000
 Call dj(489, 64)
 Delay 1000
