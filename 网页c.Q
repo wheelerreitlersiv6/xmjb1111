@@ -152,6 +152,16 @@ Call wy("https://nebulai.network/opencompute")
 Delay 20000
 Call dj(953, 946)
 
+'==========以下是按键精灵录制的内容==========
+Delay 702
+KeyDown "Alt", 1
+Delay 171
+KeyDown "F", 1
+Delay 117
+KeyUp "Alt", 1
+Delay 7
+KeyUp "F", 1
+'==========以上是按键精灵录制的内容==========
 
 Sub dj(x,y)
 	MoveTo x, y

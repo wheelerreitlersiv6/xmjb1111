@@ -29,6 +29,17 @@ SetupOCXFile=
 //找色后关闭=zsgb(五秒延迟）
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
+'==========以下是按键精灵录制的内容==========
+
+Delay 1956
+KeyDown "Alt", 1
+Delay 168
+KeyDown "B", 1
+Delay 97
+KeyUp "B", 1
+Delay 95
+KeyUp "Alt", 1
+'==========以上是按键精灵录制的内容==========
 
 //1 despeed
 Call dj(1011, 1)
