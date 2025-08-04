@@ -64,7 +64,11 @@ Delay 30000
 Call dj(1770,144)
 Delay 10000
 Call zscsh
-Call zsdj(602,624,648,697,"204FFF")
+Call zsdj(602, 624, 648, 697, "204FFF")
+Delay 2000
+Call dj(1770,144)
+Delay 10000
+Call zscsh
 Call zsgb
 Call zscsh
 Call zsdj(1045,595,1108,702,"204FFF")
@@ -148,8 +152,44 @@ Call bq
 Delay 1000
 Call wy("https://zero.kaisar.io/missions")
 Delay 20000
+Call dj(1291,442)
+Delay 5000
 Call dj(1843,400)
 Delay 5000
+Call gb
+
+//8 https://testnet.pharosnetwork.xyz/experience
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://testnet.pharosnetwork.xyz/experience")
+Delay 20000
+Call dj(1301,519)
+Delay 5000
+Call gb
+
+//9 https://app.wardenprotocol.org/dashboard
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://app.wardenprotocol.org/dashboard")
+Delay 40000
+Call dj(681,863)
+Delay 5000
+SayString "thank you"
+Delay 2000
+KeyPress "Enter", 1
+Delay 15000
+Call dj(1755,176)
+Delay 5000
+Call dj(955,737)
+Delay 5000
+Call dj(961,836)
+Delay 5000
+Call dj(985,431)
+Delay 5000
+Call dj(789,657)
+Delay 95000
 Call gb
 
 KeyDown "Alt", 1

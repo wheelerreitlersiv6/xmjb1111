@@ -8,8 +8,8 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=b4fe6716-c270-4a57-8612-7e44d01bead8
-Description=Gaea
+MacroID=e0139aba-906f-4034-8f78-294712485487
+Description=网页快开
 Enable=1
 AutoRun=0
 [Repeat]
@@ -23,39 +23,43 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-Call dj(1674,742)
-MouseWheel - 1 
-Delay 5000
-Call dj(1555, 1000)
+//左键点击=dj 双击=sj 右键点击=yj 拖拽鼠标=tz 
+//新建标签页=bq 标签页打开网页=wy 关闭网页=gb(两秒延迟） 打开无痕=wh 刷新页面=sx
+//找色=zs 找图=zt 找色初始化=zscsh 找色后点击=zsdj（五秒延迟）
+//找色后关闭=zsgb(五秒延迟）
+//小狐狸钱包=xhl sui钱包=sui
+//密码=mm
+
+Call dj(1011, 1)
+Call bq
 Delay 1000
-Call dj(1102, 743)
+Call wy("https://eragon.gg/sign-in")
 Delay 5000
-For 15
-If zs(1625,985,1663,1016,"666666") = true Then
-    Call dj(703,1004)
-    Delay 1500
-    SayString "give some choose like abc"
-    Delay 1500
-End If
-If zs(1625,985,1663,1016,"EBEBEB") = true Then
-    Call dj(1648,1005)
-    Delay 1500
-End If
-Delay 15000
-If zs(1625,985,1663,1016,"666666") = true Then
-    Call dj(703,1004)
-    Delay 1500
-    SayString "a"
-    Delay 1500
-End If
-If zs(1625,985,1663,1016,"EBEBEB") = true Then
-    Call dj(1648,1005)
-    Delay 1500
-End If
-Delay 15000
-Next
-
-
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://www.coresky.com/tasks-rewards")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://hub.beamable.network/modules/dailyreward")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://testnet.humanity.org/login")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://testnet.pharosnetwork.xyz/experience")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://app.wardenprotocol.org/")
+Delay 5000
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200
@@ -98,6 +102,14 @@ KeyPress 87, 1
 KeyUp 17, 1
 Delay 2000
 End Sub
+Sub zsgb
+	If zdys = True Then 
+	Call gb
+	Delay 5000
+	Else 
+	Delay 3000
+End If
+End Sub
 Sub wh
 	KeyDown 17, 1
 KeyDown 16, 1
@@ -116,7 +128,27 @@ Sub xhl
     Delay 5000
 End If
 End Sub
-
+Sub sui
+    If zs(1782,552,1896,652,"99E247") = true Then
+    Call dj(1787,598)
+    Delay 5000
+End If
+End Sub
+Sub zsdj(x1,y1,x2,y2,颜色值)
+	FindColor x1,y1,x2,y2,颜色值,x,y   
+If x>0 and y>0 Then  
+    MoveTo x, y
+    LeftClick 1
+    Delay 5000
+    zdys = True
+    Else 
+    zdys = False
+End If   
+End Sub
+Sub zscsh
+	Dim zdys
+	zdys = False
+End Sub
 Sub mm
 SayString "lzll361616"
 End Sub
