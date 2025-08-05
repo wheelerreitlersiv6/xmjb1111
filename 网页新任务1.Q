@@ -30,6 +30,7 @@ SetupOCXFile=
 //Ğ¡ºüÀêÇ®°ü=xhl suiÇ®°ü=sui
 //ÃÜÂë=mm
 //https://predict.recall.network/
+Call dj(1011, 1)
 Call dj(744,909)
 Delay 5000
 For i = 1 To 10
