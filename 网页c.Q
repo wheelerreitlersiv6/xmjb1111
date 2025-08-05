@@ -160,7 +160,7 @@ KeyUp "Alt", 1
 Delay 52
 KeyUp "Tab", 1
 Delay 461
-Call dj(410,754)
+Call dj(414,786)
 Delay 3000
 Call dj(227,528)
 Delay 5000
