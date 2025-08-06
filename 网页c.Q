@@ -274,3 +274,13 @@ Else
 zt = False
 End If
 End Function
+Function suiji()
+    Randomize
+    Dim r
+    r = Rnd()
+    If r < 0.5 Then
+        suiji = True
+    Else
+        suiji = False
+    End If
+End Function

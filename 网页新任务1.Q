@@ -34,7 +34,12 @@ Call dj(1011, 1)
 Call dj(744,909)
 Delay 5000
 For i = 1 To 10
-	Call dj(731,509)
+Call suiji
+If suiji = True Then 
+	Call dj(731, 509)
+	Else 
+	Call dj(1138,484)
+End If
 Delay 1000
 Next
 Delay 10000
@@ -43,7 +48,12 @@ Delay 5000
 Call dj(1166,873)
 Delay 5000
 For i = 1 To 10
-	Call dj(731,509)
+Call suiji
+If suiji = True Then 
+	Call dj(731, 509)
+	Else 
+	Call dj(1138,484)
+End If
 Delay 1000
 Next
 Delay 10000
@@ -53,7 +63,12 @@ MouseWheel -1
 Call dj(705,989)
 Delay 5000
 For i = 1 To 10
-	Call dj(731,509)
+Call suiji
+If suiji = True Then 
+	Call dj(731, 509)
+	Else 
+	Call dj(1138,484)
+End If
 Delay 1000
 Next
 Delay 10000
@@ -63,7 +78,12 @@ MouseWheel - 1
 Call dj(1112,997)
 Delay 5000
 For i = 1 To 10
-	Call dj(731,509)
+Call suiji
+If suiji = True Then 
+	Call dj(731, 509)
+	Else 
+	Call dj(1138,484)
+End If
 Delay 1000
 Next
 Delay 10000
@@ -73,7 +93,12 @@ MouseWheel - 5
 Call dj(736,842)
 Delay 5000
 For i = 1 To 10
-	Call dj(731,509)
+Call suiji
+If suiji = True Then 
+	Call dj(731, 509)
+	Else 
+	Call dj(1138,484)
+End If
 Delay 1000
 Next
 Delay 10000
@@ -188,4 +213,14 @@ zt = True
 Else 
 zt = False
 End If
+End Function
+Function suiji()
+    Randomize
+    Dim r
+    r = Rnd()
+    If r < 0.5 Then
+        suiji = True
+    Else
+        suiji = False
+    End If
 End Function

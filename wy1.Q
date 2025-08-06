@@ -8,7 +8,7 @@ StopHotkey=123
 StopHotkeyMod=0
 RunOnce=1
 EnableWindow=
-MacroID=e0139aba-906f-4034-8f78-294712485487
+MacroID=a45e9585-7310-4145-8be0-0815ff509c2d
 Description=ÍøÒ³¿ì¿ª
 Enable=1
 AutoRun=0
@@ -33,33 +33,88 @@ SetupOCXFile=
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://eragon.gg/sign-in")
+Call wy("https://unich.com/en/airdrop")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://www.coresky.com/tasks-rewards")
+Call wy("https://app.despeed.net/dashboard")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://hub.beamable.network/modules/dailyreward")
+Call wy("https://sosovalue.com/zh")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://testnet.humanity.org/login")
+Call wy("https://app.tea-fi.com/swap")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://testnet.pharosnetwork.xyz/experience")
+Call wy("https://depinhub.io/earn")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://www.unemeta.com/en/rewards")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://x.ink/airdrop")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://zero.kaisar.io/missions")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://testnet.pharosnetwork.xyz/")
+Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://app.aigaea.net/emotionalCheckIn")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
 Call wy("https://app.wardenprotocol.org/")
 Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://www.unemeta.com/en/rewards")
+//Delay 5000
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200

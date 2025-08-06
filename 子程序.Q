@@ -10,7 +10,7 @@ RunOnce=1
 EnableWindow=
 MacroID=3a3b96f4-e602-4d94-9bca-cef3378568b1
 Description=子程序测试
-Enable=0
+Enable=1
 AutoRun=0
 [Repeat]
 Type=0
@@ -29,7 +29,7 @@ SetupOCXFile=
 //找色后关闭=zsgb(五秒延迟）
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
-
+//二分之一随机=suiji
 
 
 
@@ -141,4 +141,14 @@ zt = True
 Else 
 zt = False
 End If
+End Function
+Function suiji()
+    Randomize
+    Dim r
+    r = Rnd()
+    If r < 0.5 Then
+        suiji = True
+    Else
+        suiji = False
+    End If
 End Function
