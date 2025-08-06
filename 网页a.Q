@@ -90,7 +90,7 @@ Call bq
 Delay 1000
 Call wy("https://depinhub.io/earn")
 Delay 15000
-Call dj(1202,549)
+Call dj(1206,706)
 Delay 5000
 Call gb
 
