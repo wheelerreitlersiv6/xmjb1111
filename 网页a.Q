@@ -164,6 +164,8 @@ Call bq
 Delay 1000
 Call wy("https://testnet.pharosnetwork.xyz/experience")
 Delay 20000
+Call dj(927, 663)
+Delay 5000
 Call dj(1301,519)
 Delay 5000
 Call gb
@@ -193,15 +195,15 @@ Delay 95000
 Call gb
 
 //9 https://app.wardenprotocol.org/dashboard
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://app.wardenprotocol.org/dashboard")
-Delay 15000
-MouseWheel - 10 
-Call dj(575, 770)
-Delay 5000
-Call gb
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://app.wardenprotocol.org/dashboard")
+//Delay 15000
+//MouseWheel - 10 
+//Call dj(575, 770)
+//Delay 5000
+//Call gb
 
 KeyDown "Alt", 1
 Delay 61
