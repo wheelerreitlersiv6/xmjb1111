@@ -194,16 +194,16 @@ Call dj(789,657)
 Delay 95000
 Call gb
 
-//9 https://app.wardenprotocol.org/dashboard
-//Call dj(1011, 1)
-//Call bq
-//Delay 1000
-//Call wy("https://app.wardenprotocol.org/dashboard")
-//Delay 15000
-//MouseWheel - 10 
-//Call dj(575, 770)
-//Delay 5000
-//Call gb
+//10 https://signup.billions.network/
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://signup.billions.network/")
+Delay 15000
+MouseWheel - 10 
+Call dj(575, 770)
+Delay 5000
+Call gb
 
 KeyDown "Alt", 1
 Delay 61
