@@ -291,7 +291,7 @@ Sub sx
 	Delay 15000
 End Sub
 Sub xhl
-    If zs(1749,552,1771,567,"FF5944") = true Then
+    If zs(1749,552,1771,567,"141312") = true Then
     Call dj(1749,552)
     Delay 5000
 End If
