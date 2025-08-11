@@ -66,6 +66,8 @@ Call bq
 Delay 1000
 Call wy("https://app.aigaea.net/missions")
 Delay 20000
+Call dj(795,950)
+Delay 1000
 MouseWheel -3
 Delay 5000
 Call dj(795,950)
