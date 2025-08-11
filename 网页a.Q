@@ -68,6 +68,8 @@ Call zsdj(602, 624, 648, 697, "204FFF")
 Delay 2000
 Call dj(1770,144)
 Delay 10000
+Call dj(1770,144)
+Delay 10000
 Call zscsh
 Call zsgb
 Call zscsh
