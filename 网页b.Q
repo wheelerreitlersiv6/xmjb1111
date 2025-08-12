@@ -186,16 +186,19 @@ Call bq
 Delay 1000
 Call wy("https://byield.gonative.cc/")
 Delay 15000
-Call dj(1613,152)
+Call dj(1745,148)
 Delay 5000
-Call dj(975,598)
-Delay 5000
-Call sui
-Call dj(760,775)
+Call dj(968,592)
 Delay 5000
 Call sui
+Call dj(1018,764)
+Delay 5000
 SayString 0.001
 Delay 1500
+KeyPress "Enter", 1
+Delay 5000
+Call sui
+Delay 5000
 Call dj(1092,989)
 Delay 45000
 Call dj(1811,593)
@@ -207,6 +210,8 @@ Delay 5000
 KeyPress "Enter", 1
 Delay 5000
 
+
+
 //kaisar
 Call dj(1672,65)
 Delay 35000
@@ -217,13 +222,22 @@ Delay 15000
 
 KeyDown "Alt", 1
 Delay 61
-KeyDown "Tab", 1
+KeyDown "F4", 1
 Delay 42
 KeyUp "Alt", 1
 Delay 52
-KeyUp "Tab", 1
+KeyUp "F4", 1
 Delay 461
-Call dj(486,784)
+
+//KeyDown "Alt", 1
+//Delay 61
+//KeyDown "Tab", 1
+//Delay 42
+//KeyUp "Alt", 1
+//Delay 52
+//KeyUp "Tab", 1
+//Delay 461
+Call dj(396,748)
 Delay 3000
 Call dj(227,528)
 Delay 5000

@@ -108,12 +108,12 @@ Call dj(1055,882)
 Delay 5000
 Call dj(973,590)
 Delay 5000
-//MouseWheel -1 
-//Call dj(960,901)
-//Delay 5000
-//Call dj(1020,537)
-//Delay 5000
-//Call gb
+MouseWheel -1 
+Call dj(960,901)
+Delay 5000
+Call dj(1020,537)
+Delay 5000
+Call gb
 Call gb
 
 //5 https://wallet.litas.io/login
@@ -215,7 +215,7 @@ KeyUp "Alt", 1
 Delay 52
 KeyUp "Tab", 1
 Delay 461
-Call dj(492,750)
+Call dj(404,728)
 Delay 3000
 Call dj(227,528)
 Delay 5000

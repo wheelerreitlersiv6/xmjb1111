@@ -31,8 +31,21 @@ SetupOCXFile=
 //密码=mm
 //二分之一随机=suiji
 
-
-
+//https://sowing.taker.xyz/
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://sowing.taker.xyz/")
+//Delay 30000
+//Call xhl
+//Delay 15000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://sowing.taker.xyz/")
+//Delay 15000
+Call dj(1144, 565)
+Delay 5000
 Sub dj(x,y)
 	MoveTo x, y
 	Delay 200
