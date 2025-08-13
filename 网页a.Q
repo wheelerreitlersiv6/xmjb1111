@@ -41,7 +41,7 @@ Delay 95
 KeyUp "Alt", 1
 '==========以上是按键精灵录制的内容==========
 
-//1 despeed
+'1 despeed
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -55,12 +55,16 @@ Else
     Call gb
 End If
 
-//2 https://sosovalue.com/zh
+'2 https://sosovalue.com/zh
 Call dj(1011, 1)
 Call bq
 Delay 1000
 Call wy("https://sosovalue.com/zh")
 Delay 30000
+Call dj(1770, 144)
+Delay 5000
+Call dj(1770, 144)
+Delay 5000
 Call dj(1770,144)
 Delay 10000
 Call zscsh
@@ -86,7 +90,7 @@ Delay 10000
 Call zsdj(1475,594,1681,707,"ADADAD")
 Delay 10000
 
-//3 https://depinhub.io/earn
+'3 https://depinhub.io/earn
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -96,7 +100,7 @@ Call dj(1206,706)
 Delay 5000
 Call gb
 
-//4 https://www.sayecho.xyz/
+'4 https://www.sayecho.xyz/
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -116,7 +120,7 @@ Delay 5000
 Call gb
 Call gb
 
-//5 https://wallet.litas.io/login
+'5 https://wallet.litas.io/login
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -130,21 +134,21 @@ Call dj(579,755)
 Delay 15000
 Call dj(703, 820)
 Delay 15000
-Call dj(389, 695)
+Call dj(387,574)
 Delay 10000
-Call tz(1913, 315, 1913, 580)
-Delay 2000
-Call dj(642,471)
+'Call tz(1913, 315, 1913, 580)
+'Delay 2000
+Call dj(522,1003)
 Delay 5000
 Call gb
 
-//6 https://x.ink/airdrop
+'6 https://x.ink/airdrop
 Call dj(1011, 1)
 Call bq
 Delay 1000
 Call wy("https://x.ink/airdrop")
 Delay 15000
-Call dj(800,771)
+Call dj(1311,381)
 Delay 5000
 Call gb
 
@@ -178,6 +182,19 @@ Call bq
 Delay 1000
 Call wy("https://app.wardenprotocol.org/dashboard")
 Delay 40000
+If zs(1344,836,1513,920,"ACBF20") = True Then 
+	Call dj(946, 734)
+	Delay 5000
+	Call dj(882,449)
+	Delay 5000
+	SayString "metamask"
+	Delay 5000
+	Call dj(905,597)
+	Delay 10000
+	Call xhl
+	Delay 5000
+	Call xhl
+End If
 Call dj(681,863)
 Delay 5000
 SayString "thank you"
@@ -202,7 +219,10 @@ Call bq
 Delay 1000
 Call wy("https://signup.billions.network/")
 Delay 15000
+Call dj(575, 770)
+Delay 5000
 MouseWheel - 10 
+Delay 5000
 Call dj(575, 770)
 Delay 5000
 Call gb
@@ -286,6 +306,7 @@ Sub xhl
     If zs(1749,552,1771,567,"141312") = true Then
     Call dj(1749,552)
     Delay 5000
+    MoveTo 1011,1 
 End If
 End Sub
 Sub sui

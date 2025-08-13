@@ -30,67 +30,67 @@ SetupOCXFile=
 //Ð¡ºüÀêÇ®°ü=xhl suiÇ®°ü=sui
 //ÃÜÂë=mm
 
-//1 https://app.yala.org/berries
-//Call dj(1011, 1)
-//Call bq
-//Call wy("https://app.yala.org/berries")
-//Delay 30000
-//If zs(1412,346,1570,451,"FF9403")=False Then 
-//	Call zscsh
-//Call zsdj(1704, 127, 1837, 259, "52180E")
-//Delay 5000
-//If zs(875, 429, 894, 446, "E57063") = False Then 
-//Call dj(885, 441)
-//Delay 5000
-//Call dj(946, 511)
-//Delay 5000
-//Else 
-//Call dj(946, 511)
-//Delay 5000
-//End If
-//Call xhl
-//Delay 10000
-//Call xhl
-//Delay 5000
-//Call bq
-//Call wy("https://app.yala.org/berries")
-//Delay 15000
-//End If
-//Call zscsh
-//If zs(1387,388,1577,475,"89C721")=True Then 
-//	Call zsdj(1387, 388, 1577, 475, "89C721")
-//	Delay 5000
-//	Call gb
-//	Else 
-//	Delay 60000
-//	Call sx
-//	Delay 15000
-//	Call zsdj(1387, 388, 1577, 475, "89C721")
-//	Delay 5000
-//	Call gb
-//End If
+'1 https://app.yala.org/berries
+Call dj(1011, 1)
+Call bq
+Call wy("https://app.yala.org/berries")
+Delay 30000
+If zs(1412,346,1570,451,"FF9403")=False Then 
+	Call zscsh
+Call zsdj(1704, 127, 1837, 259, "52180E")
+Delay 5000
+If zs(875, 429, 894, 446, "E57063") = False Then 
+Call dj(885, 441)
+Delay 5000
+Call dj(946, 511)
+Delay 5000
+Else 
+Call dj(946, 511)
+Delay 5000
+End If
+Call xhl
+Delay 10000
+Call xhl
+Delay 5000
+Call bq
+Call wy("https://app.yala.org/berries")
+Delay 15000
+End If
+Call zscsh
+If zs(1387,388,1577,475,"89C721")=True Then 
+	Call zsdj(1387, 388, 1577, 475, "89C721")
+	Delay 5000
+	Call gb
+	Else 
+	Delay 60000
+	Call sx
+	Delay 15000
+	Call zsdj(1387, 388, 1577, 475, "89C721")
+	Delay 5000
+	Call gb
+End If
 
-//2 https://earn.taker.xyz/
-//Call dj(1011, 1)
-//Call bq
-//Call wy("https://earn.taker.xyz/")
-//Delay 20000
-//Call dj(1785,142)
-//Delay 5000
-//Call zscsh
-//Call zsdj(1459,143,1895,746,"5D8DFF")
-//Delay 5000
-//Call xhl
-//Delay 10000
-//Call xhl
-//Delay 5000
-//Call dj(844,999)
-//Delay 15000
-//Call xhl
-//Delay 5000
-//Call gb
+'2 https://earn.taker.xyz/
+Call dj(1011, 1)
+Call bq
+Call wy("https://earn.taker.xyz/")
+Delay 20000
+Call dj(1785,142)
+Delay 5000
+Call zscsh
+Call zsdj(1459,143,1895,746,"5D8DFF")
+Delay 5000
+Call xhl
+Delay 10000
+Call xhl
+Delay 5000
+Call dj(844,999)
+Delay 15000
+Call xhl
+Delay 5000
+Call gb
 
-//3 https://unich.com/en/airdrop
+'3 https://unich.com/en/airdrop
 Call dj(1011, 1)
 Call bq
 Call wy("https://unich.com/en/airdrop")
@@ -108,9 +108,59 @@ MouseWheel - 12
 Delay 5000
 Call dj(1010, 641)
 Delay 5000
+MouseWheel + 6 
+Delay 5000
+For i = 1 To 5
+If zs(825, 521, 927, 565, "2DA7FF") = True Then 
+  Call dj(872, 551)
+  Delay 5000
+  Call dj(893,711)
+  Delay 5000
+  Call dj(981,57)
+  Delay 5000
+Delay 499
+KeyDown "Ctrl", 1
+Delay 2
+Delay 156
+KeyDown "C", 1
+Delay 2
+Delay 81
+KeyUp "Ctrl", 1
+Delay 2
+Delay 3
+KeyUp "C", 1
+Delay 1
+Delay 4
+KeyUp "C", 1
+Delay 2
+Call gb
+Delay 5000
+  Call dj(887,585)
+  Delay 5000
+  KeyDown "Ctrl", 1
+Delay 2
+Delay 156
+KeyDown "V", 1
+Delay 2
+Delay 81
+KeyUp "Ctrl", 1
+Delay 2
+Delay 3
+KeyUp "V", 1
+Delay 1
+Delay 4
+KeyUp "V", 1
+Delay 2
+  Call dj(862,669)
+  Delay 5000
+  Call dj(913,729)
+  Delay 5000
+End If
+	
+Next
 
 
-//8 https://www.key.top/
+'8 https://www.key.top/
 Call dj(1011, 1)
 Call bq
 Delay 1000

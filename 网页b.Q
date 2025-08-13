@@ -31,7 +31,7 @@ SetupOCXFile=
 //ÃÜÂë=mm
 Call dj(1011, 1)
 Call wh
-//1 https://www.unemeta.com/en/rewards Ð¡ºüÀêµÇÂ¼
+'1 https://www.unemeta.com/en/rewards Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -52,7 +52,7 @@ Delay 5000
 Call gb
  
 
-//2 https://app.tea-fi.com/swap Ð¡ºüÀêµÇÂ¼
+'2 https://app.tea-fi.com/swap Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -77,7 +77,7 @@ Delay 5000
 Call gb
 
 
-//3 https://profile.bluwhale.com/login Ð¡ºüÀêµÇÂ¼
+'3 https://profile.bluwhale.com/login Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -95,7 +95,7 @@ Call dj(901,590)
 Delay 10000
 Call gb
 
-//4 https://testnet.humanity.org/login Ð¡ºüÀêµÇÂ¼
+'4 https://testnet.humanity.org/login Ð¡ºüÀêµÇÂ¼
 //Call dj(1011, 1)
 //Call bq
 //Call wy("https://testnet.humanity.org/login")
@@ -144,7 +144,7 @@ Call gb
 //Delay 5000
 //Call gb
 
-//5 https://www.bitquant.io/ Ð¡ºüÀêµÇÂ¼
+'5 https://www.bitquant.io/ Ð¡ºüÀêµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -180,7 +180,8 @@ Next
 Delay 5000
 Call gb
 Delay 15000
-//6 https://byield.gonative.cc/ slushµÇÂ¼
+
+'6 https://byield.gonative.cc/ slushµÇÂ¼
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -199,10 +200,6 @@ KeyPress "Enter", 1
 Delay 5000
 Call sui
 Delay 5000
-Call dj(1092,989)
-Delay 45000
-Call dj(1811,593)
-Delay 5000
 Call dj(1712,322)
 Delay 5000
 Call mm
@@ -210,13 +207,21 @@ Delay 5000
 KeyPress "Enter", 1
 Delay 5000
 
-
-
-//kaisar
+'7 kaisar
 Call dj(1672,65)
 Delay 35000
 Call dj(1565,448)
 Delay 15000
+Call dj(1011, 1)
+Delay 5000
+Call dj(1672,65)
+Delay 35000
+Call dj(1565,448)
+Delay 15000
+Call dj(1011, 1)
+Delay 5000
+Call dj(1672,65)
+Delay 35000
 Call dj(1565,448)
 Delay 15000
 
@@ -229,14 +234,14 @@ Delay 52
 KeyUp "F4", 1
 Delay 461
 
-//KeyDown "Alt", 1
-//Delay 61
-//KeyDown "Tab", 1
-//Delay 42
-//KeyUp "Alt", 1
-//Delay 52
-//KeyUp "Tab", 1
-//Delay 461
+KeyDown "Alt", 1
+Delay 61
+KeyDown "Tab", 1
+Delay 42
+KeyUp "Alt", 1
+Delay 52
+KeyUp "Tab", 1
+Delay 461
 Call dj(396,748)
 Delay 3000
 Call dj(227,528)
@@ -308,6 +313,7 @@ Sub xhl
     If zs(1749,552,1771,567,"141312") = true Then
     Call dj(1749,552)
     Delay 5000
+    MoveTo 1011,1 
 End If
 End Sub
 Sub sui

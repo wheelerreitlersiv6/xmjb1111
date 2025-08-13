@@ -61,6 +61,8 @@ If zs(1625,985,1663,1016,"EBEBEB") = true Then
 End If
 Delay 15000
 Next
+
+
 Call dj(1011, 1)
 Call bq
 Delay 1000
