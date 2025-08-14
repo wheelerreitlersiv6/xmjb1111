@@ -212,18 +212,24 @@ Call dj(1672,65)
 Delay 35000
 Call dj(1565,448)
 Delay 15000
+Call dj(1698, 411)
+Delay 5000
 Call dj(1011, 1)
 Delay 5000
 Call dj(1672,65)
 Delay 35000
 Call dj(1565,448)
 Delay 15000
+Call dj(1698, 411)
+Delay 5000
 Call dj(1011, 1)
 Delay 5000
 Call dj(1672,65)
 Delay 35000
 Call dj(1565,448)
 Delay 15000
+Call dj(1698, 411)
+Delay 5000
 
 KeyDown "Alt", 1
 Delay 61
