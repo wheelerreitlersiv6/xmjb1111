@@ -74,8 +74,8 @@ Call dj(1770,144)
 Delay 10000
 Call dj(1770,144)
 Delay 10000
-Call zscsh
-Call zsgb
+//Call zscsh
+//Call zsgb
 Call zscsh
 Call zsdj(1045,595,1108,702,"204FFF")
 Call zsgb
