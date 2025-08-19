@@ -66,6 +66,12 @@ Next
 Call dj(1011, 1)
 Call bq
 Delay 1000
+Call wy("https://hub.beamable.network/modules/dailyreward")
+Delay 5000
+
+Call dj(1011, 1)
+Call bq
+Delay 1000
 Call wy("https://app.aigaea.net/missions")
 Delay 20000
 Call dj(795,950)
