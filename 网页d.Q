@@ -69,6 +69,9 @@ Delay 1000
 Call wy("https://hub.beamable.network/modules/dailyreward")
 Delay 5000
 
+
+
+
 Call dj(1011, 1)
 Call bq
 Delay 1000
@@ -93,6 +96,11 @@ Delay 1000
 Call dj(1658,981)
 Delay 1000
 
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://www.coresky.com/tasks-rewards")
+Delay 5000
 
 '==========以下是按键精灵录制的内容==========
 Delay 702
