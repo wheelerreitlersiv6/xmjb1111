@@ -45,7 +45,9 @@ Delay 1000
 Call dj(1521,1013)
 Delay 1000
 Call dj(1658,981)
-Delay 1000
+Delay 5000
+Call gb
+Delay 3000
 
 Call dj(1011, 1)
 Call bq
