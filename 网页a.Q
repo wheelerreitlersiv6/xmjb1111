@@ -68,7 +68,8 @@ Delay 5000
 Call dj(1770,144)
 Delay 10000
 Call zscsh
-Call zsdj(602, 624, 648, 697, "204FFF")
+'Call zsdj(602, 624, 648, 697, "204FFF")
+Call zsdj(1045,595,1108,702,"204FFF")
 Delay 2000
 Call dj(1770,144)
 Delay 10000
@@ -77,10 +78,13 @@ Delay 10000
 //Call zscsh
 //Call zsgb
 Call zscsh
-Call zsdj(1045,595,1108,702,"204FFF")
+Call zsdj(1491,591,1556,702,"204FFF")
 Call zsgb
 Call zscsh
-Call zsdj(1491,591,1556,702,"204FFF")
+Call zsdj(592,799,697,965,"204FFF")
+Call zsgb
+Call zscsh
+Call zsdj(1020,824,1125,966,"204FFF")
 Call zsgb
 Delay 60000
 Call zsdj(585,596,758,729,"ADADAD")
@@ -88,6 +92,10 @@ Delay 10000
 Call zsdj(1022,592,1213,711,"ADADAD")
 Delay 10000
 Call zsdj(1475,594,1681,707,"ADADAD")
+Delay 10000
+Call zsdj(592,799,697,965,"ADADAD")
+Delay 10000
+Call zsdj(1020,824,1125,966,"ADADAD")
 Delay 10000
 
 '3 https://depinhub.io/earn
