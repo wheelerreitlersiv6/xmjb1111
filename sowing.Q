@@ -30,45 +30,56 @@ SetupOCXFile=
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
 
+
+Call ck
+Delay 3000
 Call dj(1011, 1)
-Call wh
-Call dj(1011, 1)
-Call bq
-Call wy("https://sowing.taker.xyz/")
-Delay 10000
-Call dj(1795, 148)
-Delay 5000
-Call dj(1637, 364)
-Delay 5000
-Call xhl
-Delay 5000
-Call xhl
-Delay 5000
-For wai = 1 To 6
-TracePrint "===== 开始外层循环 " & wai & " ====="
-For i = 1 To 2
- TracePrint "--- 内层循环 " & i & " ---"
-Call dj(1151, 560)
-Delay 5000
-Call xhl
-Delay 5000
-Call xhl
-Delay 35000
-Call dj(834, 664)
-Delay 15000
-Call sx
-Delay 15000
-Next
-TracePrint "完成内层循环，等待3小时..."
-Delay 10899999
-Delay 70000
-MoveTo 936, 11
-Delay 4316
-LeftClick 1
-Delay 100
-Next
 
 
+
+
+
+
+
+//Call dj(1011, 1)
+//Call wh
+//Call dj(1011, 1)
+//Call bq
+//Call wy("https://sowing.taker.xyz/")
+//Delay 10000
+//Call dj(1795, 148)
+//Delay 5000
+//Call dj(1637, 364)
+//Delay 5000
+//Call xhl
+//Delay 5000
+//Call xhl
+//Delay 5000
+//For wai = 1 To 6
+//TracePrint "===== 开始外层循环 " & wai & " ====="
+//For i = 1 To 2
+// TracePrint "--- 内层循环 " & i & " ---"
+//Call dj(1151, 560)
+//Delay 5000
+//Call xhl
+//Delay 5000
+//Call xhl
+//Delay 35000
+//Call dj(834, 664)
+//Delay 15000
+//Call sx
+//Delay 15000
+//Next
+//TracePrint "完成内层循环，等待3小时..."
+//Delay 10899999
+//Delay 70000
+//MoveTo 936, 11
+//Delay 4316
+//LeftClick 1
+//Delay 100
+//Next
+//
+//
 
 
 Sub dj(x,y)
@@ -97,6 +108,13 @@ Sub bq
 	KeyDown 17, 1
 	Delay 200
 KeyPress 84, 1
+KeyUp 17, 1
+
+End Sub
+Sub ck
+	KeyDown 17, 1
+	Delay 200
+KeyPress 78, 1
 KeyUp 17, 1
 
 End Sub
