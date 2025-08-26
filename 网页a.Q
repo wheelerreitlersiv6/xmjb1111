@@ -68,8 +68,8 @@ Delay 5000
 Call dj(1770,144)
 Delay 10000
 Call zscsh
-'Call zsdj(602, 624, 648, 697, "204FFF")
-Call zsdj(1045,595,1108,702,"204FFF")
+'Call zsdj(602, 624, 648, 697, "3776FF")
+Call zsdj(1045,595,1108,702,"3776FF")
 Delay 2000
 Call dj(1770,144)
 Delay 10000
@@ -78,13 +78,13 @@ Delay 10000
 //Call zscsh
 //Call zsgb
 Call zscsh
-Call zsdj(1491,591,1556,702,"204FFF")
+Call zsdj(1491,591,1556,702,"3776FF")
 Call zsgb
 Call zscsh
-Call zsdj(592,799,697,965,"204FFF")
+Call zsdj(592,799,697,965,"3776FF")
 Call zsgb
 Call zscsh
-Call zsdj(1020,824,1125,966,"204FFF")
+Call zsdj(1020,824,1125,966,"3776FF")
 Call zsgb
 Delay 60000
 Call zsdj(585,596,758,729,"ADADAD")
