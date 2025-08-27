@@ -156,7 +156,7 @@ Call bq
 Delay 1000
 Call wy("https://x.ink/airdrop")
 Delay 15000
-Call dj(1311,381)
+Call dj(1188,436)
 Delay 5000
 Call gb
 

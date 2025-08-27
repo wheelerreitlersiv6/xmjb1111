@@ -156,7 +156,7 @@ Call dj(813,715)
 Delay 5000
 MouseWheel - 1 
 Call dj(1251, 951)
-Delay 5000
+Delay 10000
 Call xhl
 Call xhl
 Call dj(777,705)

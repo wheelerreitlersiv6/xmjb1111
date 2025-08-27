@@ -104,9 +104,9 @@ Delay 3000
 	Call dj(1010, 641)
 Delay 3000
 End If
-MouseWheel - 12 
+MouseWheel - 6
 Delay 5000
-Call dj(1010, 641)
+Call dj(920,777)
 Delay 5000
 MouseWheel + 6 
 Delay 5000
