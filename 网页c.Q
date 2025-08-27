@@ -104,60 +104,63 @@ Delay 3000
 	Call dj(1010, 641)
 Delay 3000
 End If
-MouseWheel - 6
+MouseWheel - 12
 Delay 5000
-Call dj(920,777)
+Call dj(959,648)
 Delay 5000
 MouseWheel + 6 
 Delay 5000
-//For i = 1 To 5
-//If zs(825, 521, 927, 565, "2DA7FF") = True Then 
-//  Call dj(872, 551)
-//  Delay 5000
-//  Call dj(893,711)
-//  Delay 5000
-//  Call dj(981,57)
-//  Delay 5000
-//Delay 499
-//KeyDown "Ctrl", 1
-//Delay 2
-//Delay 156
-//KeyDown "C", 1
-//Delay 2
-//Delay 81
-//KeyUp "Ctrl", 1
-//Delay 2
-//Delay 3
-//KeyUp "C", 1
-//Delay 1
-//Delay 4
-//KeyUp "C", 1
-//Delay 2
-//Call gb
-//Delay 5000
-//  Call dj(887,585)
-//  Delay 5000
-//  KeyDown "Ctrl", 1
-//Delay 2
-//Delay 156
-//KeyDown "V", 1
-//Delay 2
-//Delay 81
-//KeyUp "Ctrl", 1
-//Delay 2
-//Delay 3
-//KeyUp "V", 1
-//Delay 1
-//Delay 4
-//KeyUp "V", 1
-//Delay 2
-//  Call dj(862,669)
-//  Delay 5000
-//  Call dj(913,729)
-//  Delay 5000
-//End If
-//	
-//Next
+For i = 1 To 8
+If zs(826,473, 931,529, "2AA6FF") = True Then 
+  
+  Call dj(885,506)
+  Delay 5000
+  Call dj(893,711)
+  Delay 5000
+  Call dj(981,57)
+  Delay 5000
+Delay 499
+KeyDown "Ctrl", 1
+Delay 2
+Delay 156
+KeyDown "C", 1
+Delay 2
+Delay 81
+KeyUp "Ctrl", 1
+Delay 2
+Delay 3
+KeyUp "C", 1
+Delay 1
+Delay 4
+KeyUp "C", 1
+Delay 2
+Call gb
+Delay 5000
+  Call dj(887,585)
+  Delay 5000
+  KeyDown "Ctrl", 1
+Delay 2
+Delay 156
+KeyDown "V", 1
+Delay 2
+Delay 81
+KeyUp "Ctrl", 1
+Delay 2
+Delay 3
+KeyUp "V", 1
+Delay 1
+Delay 4
+KeyUp "V", 1
+Delay 2
+  Call dj(862,669)
+  Delay 5000
+  Call dj(913,729)
+  Delay 5000
+  Else 
+  
+End If
+	
+Next
 
 
 '8 https://www.key.top/

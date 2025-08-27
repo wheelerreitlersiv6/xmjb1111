@@ -49,11 +49,15 @@ Call wy("https://app.despeed.net/dashboard")
 Delay 15000
 Call dj(260, 749)
 Delay 2000
-If zs(300,749,485,783,"150D0F") = False Then
-    Call dj(260, 749)
-Else 
-    Call gb
-End If
+Call dj(260, 749)
+Delay 2000
+Call gb
+Delay 2000
+//If zs(300,749,485,783,"150D0F") = False Then
+//    Call dj(260, 749)
+//Else 
+//    Call gb
+//End If
 
 '2 https://sosovalue.com/zh
 Call dj(1011, 1)
@@ -156,7 +160,7 @@ Call bq
 Delay 1000
 Call wy("https://x.ink/airdrop")
 Delay 15000
-Call dj(1188,436)
+Call dj(1197,380)
 Delay 5000
 Call gb
 
@@ -203,7 +207,7 @@ If zs(1344,836,1513,920,"ACBF20") = True Then
 	Delay 5000
 	Call xhl
 End If
-Call dj(681,863)
+Call dj(667,507)
 Delay 5000
 SayString "thank you"
 Delay 2000
@@ -211,9 +215,11 @@ KeyPress "Enter", 1
 Delay 15000
 Call dj(1755,176)
 Delay 5000
-Call dj(955,737)
+Call dj(1170,384)
 Delay 5000
-Call dj(961,836)
+Call dj(225,167)
+Delay 5000
+Call dj(743,422)
 Delay 5000
 Call dj(985,431)
 Delay 5000

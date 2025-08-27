@@ -30,7 +30,8 @@ SetupOCXFile=
 //小狐狸钱包=xhl sui钱包=sui
 //密码=mm
 //二分之一随机=suiji
-MouseWheel - 6
+
+
 
 Sub dj(x,y)
 	MoveTo x, y
