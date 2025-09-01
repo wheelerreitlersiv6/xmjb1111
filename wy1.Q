@@ -38,37 +38,12 @@ Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://app.despeed.net/dashboard")
-Delay 5000
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://sosovalue.com/zh")
-Delay 5000
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://app.tea-fi.com/swap")
-Delay 5000
-Call dj(1011, 1)
-Call bq
-Delay 1000
 Call wy("https://depinhub.io/earn")
 Delay 5000
 Call dj(1011, 1)
 Call bq
 Delay 1000
-Call wy("https://www.unemeta.com/en/rewards")
-Delay 5000
-Call dj(1011, 1)
-Call bq
-Delay 1000
 Call wy("https://x.ink/airdrop")
-Delay 5000
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://zero.kaisar.io/missions")
 Delay 5000
 Call dj(1011, 1)
 Call bq
