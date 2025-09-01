@@ -23,65 +23,65 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://app.aigaea.net/missions")
-Delay 50000
-Call dj(795,950)
-Delay 1000
-MouseWheel -3
-Delay 5000
-Call dj(795,950)
-Delay 1000
-Call dj(944,998)
-Delay 1000
-Call dj(1076,985)
-Delay 1000
-Call dj(1243,986)
-Delay 1000
-Call dj(1359,980)
-Delay 1000
-Call dj(1521,1013)
-Delay 1000
-Call dj(1658,981)
-Delay 5000
-Call gb
-Delay 3000
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://app.aigaea.net/missions")
+//Delay 50000
+//Call dj(795,950)
+//Delay 1000
+//MouseWheel -3
+//Delay 5000
+//Call dj(795,950)
+//Delay 1000
+//Call dj(944,998)
+//Delay 1000
+//Call dj(1076,985)
+//Delay 1000
+//Call dj(1243,986)
+//Delay 1000
+//Call dj(1359,980)
+//Delay 1000
+//Call dj(1521,1013)
+//Delay 1000
+//Call dj(1658,981)
+//Delay 5000
+//Call gb
+//Delay 3000
 
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://app.aigaea.net/emotionalCheckIn")
-Delay 20000
-
-Call dj(1674,742)
-MouseWheel - 1 
-Delay 5000
-Call dj(1555, 1000)
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://app.aigaea.net/training")
+//Delay 20000
+//Call dj(464, 234)
+//Delay 5000
+//Call dj(1609,906)
+//Delay 5000
+Call dj(1101,742)
 Delay 1000
 Call dj(1102, 743)
 Delay 5000
 For 15
-If zs(1625,985,1663,1016,"666666") = true Then
-    Call dj(703,1004)
+If zs(1643,901,1650,907,"666666") = true Then
+    Call dj(739,906)
     Delay 1500
     SayString "give some choose like abc"
     Delay 1500
 End If
-If zs(1625,985,1663,1016,"EBEBEB") = true Then
-    Call dj(1648,1005)
+If zs(1643,901,1650,907,"EBEBEB") = true Then
+    Call dj(1649,903)
     Delay 1500
 End If
 Delay 15000
-If zs(1625,985,1663,1016,"666666") = true Then
-    Call dj(703,1004)
+If zs(1643,901,1650,907,"666666") = true Then
+    Call dj(739,906)
     Delay 1500
     SayString "a"
     Delay 1500
 End If
-If zs(1625,985,1663,1016,"EBEBEB") = true Then
-    Call dj(1648,1005)
+If zs(1643,901,1650,907,"EBEBEB") = true Then
+    Call dj(1649,903)
     Delay 1500
 End If
 Delay 15000
