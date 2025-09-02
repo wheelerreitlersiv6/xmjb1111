@@ -23,41 +23,41 @@ SetupOCXFile=
 [Comment]
 
 [Script]
-//Call dj(1011, 1)
-//Call bq
-//Delay 1000
-//Call wy("https://app.aigaea.net/missions")
-//Delay 50000
-//Call dj(795,950)
-//Delay 1000
-//MouseWheel -3
-//Delay 5000
-//Call dj(795,950)
-//Delay 1000
-//Call dj(944,998)
-//Delay 1000
-//Call dj(1076,985)
-//Delay 1000
-//Call dj(1243,986)
-//Delay 1000
-//Call dj(1359,980)
-//Delay 1000
-//Call dj(1521,1013)
-//Delay 1000
-//Call dj(1658,981)
-//Delay 5000
-//Call gb
-//Delay 3000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://app.aigaea.net/missions")
+Delay 50000
+Call dj(795,950)
+Delay 1000
+MouseWheel -3
+Delay 5000
+Call dj(795,950)
+Delay 1000
+Call dj(944,998)
+Delay 1000
+Call dj(1076,985)
+Delay 1000
+Call dj(1243,986)
+Delay 1000
+Call dj(1359,980)
+Delay 1000
+Call dj(1521,1013)
+Delay 1000
+Call dj(1658,981)
+Delay 5000
+Call gb
+Delay 3000
 
-//Call dj(1011, 1)
-//Call bq
-//Delay 1000
-//Call wy("https://app.aigaea.net/training")
-//Delay 20000
-//Call dj(464, 234)
-//Delay 5000
-//Call dj(1609,906)
-//Delay 5000
+Call dj(1011, 1)
+Call bq
+Delay 1000
+Call wy("https://app.aigaea.net/training")
+Delay 20000
+Call dj(464, 234)
+Delay 5000
+Call dj(1609,906)
+Delay 5000
 Call dj(1101,742)
 Delay 1000
 Call dj(1102, 743)
