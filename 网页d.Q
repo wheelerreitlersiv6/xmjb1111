@@ -62,7 +62,7 @@ Call dj(1101,742)
 Delay 1000
 Call dj(1102, 743)
 Delay 5000
-For 15
+
 If zs(1643,901,1650,907,"666666") = true Then
     Call dj(739,906)
     Delay 1500
@@ -74,6 +74,7 @@ If zs(1643,901,1650,907,"EBEBEB") = true Then
     Delay 1500
 End If
 Delay 15000
+For 5
 If zs(1643,901,1650,907,"666666") = true Then
     Call dj(739,906)
     Delay 1500
@@ -86,7 +87,17 @@ If zs(1643,901,1650,907,"EBEBEB") = true Then
 End If
 Delay 15000
 Next
-
+If zs(1643,901,1650,907,"666666") = true Then
+    Call dj(739,906)
+    Delay 1500
+    SayString "NO THANK YOU"
+    Delay 1500
+End If
+If zs(1643,901,1650,907,"EBEBEB") = true Then
+    Call dj(1649,903)
+    Delay 1500
+End If
+Delay 15000
 
 Call dj(1011, 1)
 Call bq
