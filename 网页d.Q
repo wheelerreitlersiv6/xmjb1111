@@ -98,7 +98,8 @@ If zs(1643,901,1650,907,"EBEBEB") = true Then
     Delay 1500
 End If
 Delay 15000
-
+Call dj(1459,885)
+Delay 2000
 Call dj(1011, 1)
 Call bq
 Delay 1000

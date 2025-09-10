@@ -198,12 +198,12 @@ Call dj(597, 497)
 Delay 5000
 
 //9 https://nebulai.network/opencompute
-Call dj(1011, 1)
-Call bq
-Delay 1000
-Call wy("https://nebulai.network/opencompute")
-Delay 20000
-Call dj(953, 946)
+//Call dj(1011, 1)
+//Call bq
+//Delay 1000
+//Call wy("https://nebulai.network/opencompute")
+//Delay 20000
+//Call dj(953, 946)
 
 KeyDown "Alt", 1
 Delay 61
